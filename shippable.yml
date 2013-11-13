@@ -6,4 +6,5 @@ script:
    - ant coverage
 notifications:
   email: false
-    
+build_environment : Ubuntu1304
+   
