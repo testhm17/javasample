@@ -1,5 +1,4 @@
-language: scala
-
+language: ruby
 jdk:
    - oraclejdk7
 script: 
