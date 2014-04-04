@@ -4,5 +4,12 @@ jdk:
    - openjdk7
 script: 
    - ant coverage
-notifications:
-  email: true
+addons:
+  firefox: "17.0"
+  hosts:
+    - google.com
+    - asdf.com
+  
+before_install:
+  - firefox --version
+
