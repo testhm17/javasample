@@ -1,11 +1,11 @@
 language: java
 jdk:
    - oraclejdk7
-   - openjdk7
+   
 script: 
    - ant coverage
 addons:
-  firefox: "17.0"
+  firefox: "21.0"
   hosts:
     - google.com
     - asdf.com
