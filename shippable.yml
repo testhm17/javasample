@@ -4,12 +4,3 @@ jdk:
    
 script: 
    - ant coverage
-addons:
-  firefox: "21.0"
-  hosts:
-    - google.com
-    - asdf.com
-  
-before_install:
-  - firefox --version
-
