@@ -1,9 +1,7 @@
-
 jdk:
    - oraclejdk7
 script: 
    - ant coverage
-notifications:
-  email: false
-build_environment : Ubuntu1304
+
+build_environment : Ubuntu1204
    
