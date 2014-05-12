@@ -3,5 +3,3 @@ jdk:
 script: 
    - ant coverage
 
-build_environment : Ubuntu1204
-   
